@@ -13,8 +13,14 @@
 
 
 import React from "react";
-import ReactDom from "react";
+import ReactDOM from "react-dom";
 
 import App from "./Components/App.jsx";
 
-import "../../public/styles.css";
+import "./css/styles.css";
+
+const root = document.getElementById("root");
+
+
+
+ReactDOM.render(<App />,root);
