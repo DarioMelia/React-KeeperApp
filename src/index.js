@@ -17,7 +17,7 @@ import ReactDOM from "react-dom";
 
 import App from "./Components/App.jsx";
 
-import "./css/styles.css";
+
 
 const root = document.getElementById("root");
 
